@@ -179,6 +179,7 @@ evento=st.sidebar.selectbox("Selecione um Evento",data['Evento'].unique())
 #Filtrando dataframe
 descr = data[data.Evento==evento]
 
+st.markdown(descr['Evento'].values)
 st.markdown(descr['Descrição'].values)
 
 img2=Image.open(r'logo_seplan.jpg')
