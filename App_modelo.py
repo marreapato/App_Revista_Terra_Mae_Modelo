@@ -155,7 +155,7 @@ st.markdown("Aplicativo com Informações resumidas por programa da DPE da Revis
 
 #Image.open(r'C:\Users\atsilva\Desktop\logo_seplan.png').convert('RGB').save('new.jpeg')
 
-img=Image.open(r'C:\Users\lmorais\Desktop\revista_terra_mae.jpg')
+img=Image.open(r'revista_terra_mae.jpg')
 
 st.image(img,width=674)
 
@@ -181,7 +181,7 @@ descr = data[data.Evento==evento]
 
 st.markdown(descr['Descrição'].values)
 
-img2=Image.open(r'C:\Users\lmorais\Desktop\logo_seplan.jpg')
+img2=Image.open(r'logo_seplan.jpg')
 
 st.image(img2,width=200)
 
